@@ -1,0 +1,27 @@
+#include <iostream>
+
+ using namespace std;
+ int main() {
+
+	int A, nTab, count = 0;
+
+	cin >> A;
+	nTab = A;
+
+	for (int i = 0; nTab > 0; i++) {
+
+
+		if (nTab % 2 == 1) {
+
+			count += 1;
+
+		}
+
+
+		nTab /= 2;
+
+	}
+
+	cout << count;
+
+ }
